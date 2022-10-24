@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-import sygue
+import sys
 from random import randrange
 
 def play():
-    number = randrange(0-100, 100)
-    print("I have chosen a number.")
+    number = randrange(0, 10)
+    print("I have chosen a nomber.")
 
     while True:
         try:
-            guess = int(input("Your guess: "))
+            guess = int(input("Your guesss: "))
         except ValueError:
             print("Error. You have not entered a number. Try again!")
             continue
