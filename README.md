@@ -8,7 +8,8 @@ It's a simple game that is often used in programming tutorials.
 
 # Open tasks
 
-* Make the game harder. Increase the upper limit
-* Fix english grammer, spelling mistakes and typos.
-* Make the game even harder. Use a negative number for the lower bar.
-* Fix PEP8 linting issues. Execute `pycodestyle guess.py` and fix the errors.
+1. Make the game harder. Increase the upper limit
+2. Fix english grammer, spelling mistakes and typos.
+3. Make the game even harder. Use a negative number for the lower bar.
+4. Implement support for `yes`, `YES` and `Yes`.
+5. Fix PEP8 linting issues. Execute `pycodestyle guess.py` and fix the errors.
