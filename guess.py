@@ -4,12 +4,12 @@ import sys
 from random import randrange
 
 def play():
-    number = randrange(0, 10)
-    print("I have chosen a nomber.")
+    number = randrange(-10, 100)
+    print("I have chosen a number.")
 
     while True:
         try:
-            guess = int(input("Your guesss: "))
+            guess = int(input("Your guess: "))
         except ValueError:
             print("Error. You have not entered a number. Try again!")
             continue
@@ -19,7 +19,7 @@ def play():
         elif guess > number:
             print("Your guess was to high!")
         else:
-            print("Congratulations. Your guess was correct.")
+            print("Congrats. Your guess was correct.")
             break;
 
 
@@ -28,7 +28,7 @@ def main():
         play()
 
         yes_or_no = input("Do you want to play again (y/n)?: ")
-        if yes_or_no not in ('y', 'Y'):
+        if yes_or_no not in ('y', 'Y','yes','Yes','YES'):
                 break
 
     return 0
@@ -36,3 +36,4 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
