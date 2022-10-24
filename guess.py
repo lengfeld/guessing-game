@@ -4,7 +4,7 @@ import sys
 from random import randrange
 
 def play():
-    number = randrange(0, 15)
+    number = randrange(0, 10)
     print("I have chosen a nomber.")
 
     while True:
